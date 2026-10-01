@@ -1,0 +1,13 @@
+{
+  "name": "Entorn Java 21 + Spring Boot + Tomcat",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "jetbrains": {
+      "backend": "IDEA"
+    }
+  },
+  "forwardPorts": [8080],
+  "remoteUser": "root"
+}
