@@ -3,6 +3,7 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
+  "initializeCommand": "docker compose -f .devcontainer/compose.php.yml up -d",
   "customizations": {
     "jetbrains": {
       "backend": "IDEA"
